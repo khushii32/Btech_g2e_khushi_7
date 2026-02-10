@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+int percentage;
+printf("enter your percentage");
+scanf("%d",&percentage);
+if(percentage<60)
+{printf("grade d");
+}else if(percentage>=60 && percentage <80)
+{printf("grade c");
+}
+else if (percentage>=80&& percentage <90)
+{printf("grade b");
+}
+else
+{printf("grade a");
+}
+return 0;
+}
