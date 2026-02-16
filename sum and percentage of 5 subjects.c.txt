@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int physics,chemistry,maths,english,cs,sum,percentage;
+printf("enter the marks of all 5 subjects");
+scanf("%d%d%d%d%d",&physics,&chemistry,&maths,&english,&cs);
+sum=physics+chemistry+maths+english+cs;
+percentage=sum/5;
+printf("the sum and percentage of marks are 5d and %d",sum,percentage);
+return 0;
+}
