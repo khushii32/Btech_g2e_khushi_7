@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int first =number,second number,third number;
+printf("enter the first number");
+scanf("%d",&first number);
+printf("enter the second number");
+scanf("%d",&second number);
+if(first number>second number&&first number >third number)
+{
+printf("the biggest number is %d",first number);
+}
+else if (second number >first number&& second number>third number)
+{
+printf("the bigest number is %d",second number);
+}
+else {
+printf("the biggest number is %d",third number);
+
+}
+return 0;
+}
