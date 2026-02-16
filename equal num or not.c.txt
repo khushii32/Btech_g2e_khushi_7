@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+int first number,second number;
+printf("enter 2 numbers to be checked:");
+scanf("%d%d",&first number, & second number);
+if(first number==second number)
+{
+printf("the entered numbers are equal");
+}
+else {
+printf("the entered numbers are not equal");
+}
+return 0;
+}
