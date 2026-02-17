@@ -1,0 +1,38 @@
+;#include<stdio.h>
+int main()
+{
+int a,b,result;
+char d;
+printf("enter a first no=");
+scanf("%d",&a);
+printf("enter a operator(+,-,*,/,%):");
+scanf("%c",&d);
+printf("enter a second no=");
+scanf("%d",&b);
+switch(d)
+{
+case '+':
+result=a+b;
+printf("result=%2f",result);
+break;
+case'-':
+result=a-b;
+printf("result=%2f",result);
+break;
+case '*':
+result=a*b;
+printf("result=%2f",result);
+break;
+case '/':
+result=a/b;
+printf("result=%2f",result);
+break;
+case '%':
+result=a%b;
+printf("result=%2f",result);
+break;
+default:
+printf("invalid operation");
+}
+return 0;
+}
