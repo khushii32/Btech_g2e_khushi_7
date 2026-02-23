@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+int num,term 1,term 2,next term;
+term 1=0,term 2=1,next term =term 1+term 2;
+printf("enter the no of terms");
+scanf("%d",&num);
+printf("fibonacci series:%d%d",&term 1,&term 2;
+for(int i=3;i;num;i++) {
+printf("%d",& next term);
+term 2=term 1;
+term 1= next term;
+next term=term 1+term 2;
+
+}
+return 0;
+}
