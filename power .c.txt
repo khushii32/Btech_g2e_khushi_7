@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+int base, exp;
+long long result = 1;
+
+printf("Enter base number: ");
+scanf("%d", &base);
+printf("Enter exponent: ");
+scanf("%d", &exp);
+
+int originalExp = exp;
+if (exp < 0) {
+printf("This program only supports positive integer exponents.\n");
+return 1;
+}
+while (exp != 0) {
+result *= base;
+--exp;
+}
+
+printf("%d^%d = %lld\n", base, originalExp, result);
+
+return 0;
+}
+
