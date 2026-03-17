@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+int i, n; // Declare variables 'i' for the loop counter and 'n' for the limit
+
+// Prompt the user to enter the value of n
+printf("Enter a positive integer (n): ");
+
+// Read the input from the user
+scanf("%d", &n);
+
+// Print a message indicating the output
+printf("The first %d natural numbers are: ", n);
+
+// Use a for loop to iterate from 1 to n
+for (i = 1; i <= n; i++) {
+printf("%d ", i); // Print the current number followed by a space
+}
+
+printf("\\n"); // Print a new line for better formatting
+
+return 0;
+}
